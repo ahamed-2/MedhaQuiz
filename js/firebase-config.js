@@ -26,15 +26,13 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.7.0/firebase
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBWeMQInzeVufl9gPk5xc5nqpWjnN0b7u0",
-  authDomain: "sikkha48.firebaseapp.com",
-  projectId: "sikkha48",
-  storageBucket: "sikkha48.firebasestorage.app",
-  messagingSenderId: "786363342806",
-  appId: "1:786363342806:web:9aa2aeb6b2e9301d120e77",
-  measurementId: "G-6VRFYC059P"
+  apiKey: "AIzaSyAZSHP1RMR4A0z7CmhEAxyd1Hwzx9y6sk",
+  authDomain: "medhaquiz-bdd63.firebaseapp.com",
+  projectId: "medhaquiz-bdd63",
+  storageBucket: "medhaquiz-bdd63.firebasestorage.app",
+  messagingSenderId: "275249977414",
+  appId: "1:275249977414:web:9bd9416f80bb6cf7295247"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
