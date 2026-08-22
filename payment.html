@@ -31,7 +31,7 @@
 
         <div class="p-6 text-center">
             <h1 class="text-lg font-bold text-gray-800">Payment</h1>
-            <p id="display-amount" class="text-4xl font-black nagad-text mt-1 transition-colors">৳50</p>
+            <p id="display-amount" class="text-4xl font-black nagad-text mt-1 transition-colors">৳300</p>
         </div>
 
         <div class="px-6 pb-6 space-y-4">
@@ -147,7 +147,7 @@
                 return;
             }
 
-            const msg = `Hello,\nI have paid via ${currentMethod.toUpperCase()}.\n\nDetails:\nEmail: ${email}\nTrxID: ${trx}\nAmount: 50 BDT\nSite: _-🧠 MedhaQuiz _-`;
+            const msg = `Hello,\nI have paid via ${currentMethod.toUpperCase()}.\n\nDetails:\nEmail: ${email}\nTrxID: ${trx}\nAmount: 300 BDT\nSite: _-🧠 MedhaQuiz _-`;
             window.open(`https://wa.me/${myWhatsApp}?text=${encodeURIComponent(msg)}`, '_blank');
         }
     </script>
